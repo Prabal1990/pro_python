@@ -1,0 +1,25 @@
+Python: When to Use len()
+
+The len() function works on sequences and collections, such as:
+
+len() does NOT work on integers or floats:
+
+Use len() only on objects that have a length (sequences, collections).
+
+Python: Arithmetic Operators
+
+%  (modulo): Returns the remainder after division.
+    Example: 7 % 3 = 1
+
+/  (division): Returns the floating-point result of division.
+    Example: 7 / 3 = 2.333...
+
+// (floor division): Returns the integer part of division (floored).
+    Example: 7 // 3 = 2
+
+Python: Accumulators – Sum vs Collection
+----------------------------------------
+• To accumulate a sum, use an integer variable (e.g., total = 0) and add to it with total += value.
+• To collect values, use a list variable (e.g., acc = []) and add items with acc.append(value).
+• You cannot add an integer directly to a list with +=; use append() for lists and += for numbers.
+• Choose accumulator type based on your goal: sum (integer) or collection (list).
